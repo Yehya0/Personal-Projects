@@ -301,7 +301,6 @@ public:
             cout << "Enter 2 to select a different cab: ";
             cin >> hireCab;
             
-            //clears terminal screen
             
             if (hireCab == 1) {
                 lastCabCost = cabCost;
@@ -315,7 +314,6 @@ public:
             else {
                 
                 cout << "Input Error....redirecting to previous menu." << endl;
-                //causes program to suspend for seconds
                 cabDetails();
             }
         }
